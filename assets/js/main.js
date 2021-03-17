@@ -3,10 +3,18 @@
   "use strict";
 
   /**
+   * Rotation Effect
+   */
+  VanillaTilt.init(document.querySelector(".vidbox-box"), {
+		max: 10,
+		speed: 400
+	});
+
+  /**
    * Type animation
    */
   var typed = new Typed('.type', {
-    strings: ['Cost Management Solutions', 'Advisory Services', 'Sustainability Strategies'],
+    strings: ['Cost Management', 'Asset Management', 'Sustainability Assesments'],
     typeSpeed: 60,
     backSpeed: 60,
     loop: true
